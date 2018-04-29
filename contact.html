@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rui Su - Final Project</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is Zoe's final project. This page contains a contact form and contact links.">
+  <meta name="keywords" content="contact, email, phone number, checkboxes, links, anchor links, images map, images, tables, nested list, survey, inframe, contact Zoe, ">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+  <nav>
+    <a href="./index.html"><span>Home</span></a>
+    <a href="./about.html"><span>About</span></a>
+    <a href="./contact.html"><span>Contact</span></a>
+  </nav>
+
+  <hr>
+
+  <h2>Contact Me</h2>
+
+  <form action="#" method="post" enctype="multipart/form-data">
+    <div>
+      <label>
+        <span>Name</span>
+        <input placeholder="Full name" type="text">
+      </label>
+    </div><br>
+    <div>
+      <label>
+        <span>Message</span>
+        <textarea placeholder="Say something..."></textarea>
+      </label>
+    </div>
+    <div>
+      <label>
+        <span>Purpose</span>
+        <select>
+          <option>Say Hi!</option>
+          <option>Marketing</option>
+          <option>Say Bye!</option>
+        </select>
+      </label>
+    </div><br>
+    <div>
+      <label for="upload">Upload your File: </label>
+      <input type="file" name="upload" id="upload">
+    </div><br>
+    <div>
+      <label>
+        <span>I agree to the Terms & Services</span>
+        <input type="checkbox">
+      </label>
+    </div>
+    <p>Please select your preferred contact method:</p>
+    <div>
+      <input type="radio" id="contactChoice1" name="contact" value="email">
+      <label for="contactChoice1">Email</label>
+
+      <input type="radio" id="contactChoice2" name="contact" value="phone">
+      <label for="contactChoice2">Phone</label>
+
+      <input type="radio" id="contactChoice3" name="contact" value="mail">
+      <label for="contactChoice3">Mail</label>
+    </div>
+    <br>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+
+  <hr>
+
+  <!-- Personal info -->
+
+  <a href="mailto:susu1000000@gmail.com">Email Me</a> |
+  <a href="tel:+1569-310-5183">Call Me</a> |
+
+</body>
+
+</html>
